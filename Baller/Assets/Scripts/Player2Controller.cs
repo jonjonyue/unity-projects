@@ -22,8 +22,8 @@ public class Player2Controller : MonoBehaviour {
 
 	void FixedUpdate ()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
+		float moveHorizontal = Input.GetAxis ("Horizontal_Player2");
+		float moveVertical = Input.GetAxis ("Vertical_Player2");
 
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0, moveVertical);
